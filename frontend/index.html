@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>E-Commerce Demo</title>
+</head>
+<body>
+
+<h1>Product List</h1>
+
+<button id="loadBtn" onclick="loadProducts()">Load Products</button>
+
+<ul id="productList"></ul>
+
+<hr>
+
+<h2>Add Product</h2>
+
+<input id="name" placeholder="Product Name">
+<input id="price" placeholder="Price">
+<button id="addBtn" onclick="addProduct()">Add</button>
+
+<hr>
+
+<h2>Login</h2>
+<input id="username" placeholder="Username">
+<input id="password" placeholder="Password">
+<button onclick="login()">Login</button>
+
+<hr>
+
+<h2>Add to Cart</h2>
+<input id="productId" placeholder="Product ID">
+<input id="quantity" placeholder="Quantity">
+<button onclick="addToCart()">Add to Cart</button>
+
+<button onclick="loadCart()">View Cart</button>
+
+<ul id="cartList"></ul>
+
+<script src="app.js"></script>
+
+</body>
+</html>
